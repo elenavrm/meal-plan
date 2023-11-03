@@ -1,0 +1,102 @@
+body {
+  background: url(meal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  background-color:#fdddce;
+  border-radius: 5px;
+  padding: 15px;
+
+}
+
+.button-add {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  background-color: #58975a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px
+}
+
+.button-delete {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #c11b1c;
+  background: none;
+  border: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.whole-plan {
+  width: 70%;
+  height: 100vh;
+}
+
+.myInput {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #fdddce;
+}
+
+textarea {
+  display: block;
+  border: 2px solid #fdddce;
+  margin-top: 30px;
+  width: 70%;
+  height: 200px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.selected {
+  background-color:
+  #c6e9b7 ;
+}
+
+.default {
+  background-color:#9fc583;
+}
+
+
+.field {
+  font-size: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background: url(resp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #b4b8c2;
+  }
+  .App {
+    flex-direction: column; 
+  }
+
+  .button-add{
+    width:50%;
+  }
+  .whole-plan {
+    width: 80%; 
+    margin-top: 30px;
+  }
+  .myInput,
+  textarea {
+    width: 70%; /* Adjust input and textarea width for larger screens */
+  }
+}
