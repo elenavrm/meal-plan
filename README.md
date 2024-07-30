@@ -5,9 +5,7 @@ Welcome to the Meal Plan Web App! This React-based web application allows you to
 ## Features
 
 - **Add and Manage Meal Plans:** Easily add new meal plans for different days with titles, ingredients, and meal details.
-
-- **Responsive Design:** The app is designed to work beautifully on various screen sizes, making it convenient for users on both desktop and mobile device.
-
+- **Responsive Design:** The app is designed to work beautifully on various screen sizes, making it convenient for users on both desktop and mobile devices.
 - **Eye-Catching UI:** The user interface is designed to be visually appealing and user-friendly.
 
 ## Usage
@@ -23,9 +21,13 @@ Use the "DELETE" button to remove a meal plan.
 
 *Responsive Design:*
 
-The app automatically adjusts to different screen sizes, providing a seamless experience on both desktop and mobile device.
+The app automatically adjusts to different screen sizes, providing a seamless experience on both desktop and mobile devices.
 
-**Technologies Used**
+## Technologies Used
 
-***React: The core JavaScript library used for building the user interface.***
-***CSS: Custom styling to create an eye-catching UI.***
+- **React:** The core JavaScript library used for building the user interface.
+- **CSS:** Custom styling to create an eye-catching UI.
+
+## Deployment
+
+You can view and interact with the live application at: [Meal Plan Web App](https://tranquil-marshmallow-dcb965.netlify.app/)
